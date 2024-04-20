@@ -2,8 +2,10 @@ name: FUSE2024
 channels:
   - defaults
 dependencies:
-  - ase
-  - nglview
+  - python=3.10.12
+  - pip=23.3.1
+  - ase=3.22.1
+  - nglview=3.1.2
   - pip:
-    - mace-torch
-    - umap-learn
+    - mace-torch==0.3.4
+    - umap-learn==0.5.6
